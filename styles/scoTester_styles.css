@@ -1,0 +1,73 @@
+body {
+	font:normal 100% Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background:#ffffff url('../images/layout.png') no-repeat;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+div#scorm-tester {
+	float:left;
+}
+
+form {
+	float:left;
+}
+
+div#get-set-props { 
+	float:left; 
+	font-size:0.8em;
+}
+div#col1 {
+	float:left;
+	margin:8px 10px 5px 8px;
+	width:198px;
+	/*background-color:#EEEEEE*/
+}
+
+div#col2 {
+	float:left;
+	width:452px;
+	
+}
+input.btn { color:#333333; font:bold 0.7em Arial, Helvetica, sans-serif; border:1px solid; border-color:#FFFFFF #333333 #333333 #FFFFFF;}
+
+div#init-commit-fin { height:65px; margin-bottom:16px; }
+div#init-commit-fin div { float:left; margin:0.3em 10px; width:70px; height:20px; text-align:center; /*background-color:#EEEEEE*/}
+
+div#comm-log { font-size:0.65em; margin-top:8px; text-decoration:underline; }
+div#comm-log textarea { font:normal 1.3em "Courier New",Courier,mono; width:195px; height:16em; border:none}
+
+div#get-set-props { float:left; }
+/*div#get-set-props div { height:30px; float:left; width:250px;}*/
+/*div#get-set-props input { font-size:0.8em; float:left;}*/
+div#get-set-props label { margin:5px 0; float:left; }
+div#get-set-props #getter { background-color:#CCCCCC; float:left; position:relative; width:40px; }
+div#get-set-props #getter input { float:left; margin:5px; font-size:inherit;}
+div#get-set-props #setter { background-color:#CCCCCC; float:left; position:relative;}
+div#get-set-props #setter input { float:left; margin:5px; }
+div#get-set-props #prop-select {  float:left; background-color:#DDDDDD; width:250px; position:relative; /*margin-left:40px;*/ }
+div#get-set-props #prop-select div { float:left; width:250px;}
+div#get-set-props #prop-select div input { float:left; margin:7px 5px;}
+
+/* here follows the brillant "no-extra-markup" clearing method devised by Tony Aslett - www.csscreator.com */
+/* simply add the clearfix class to any containter that must enclose floated elements */
+/* read the details of how and why this works at http://www.positioniseverything.net/easyclearing.html */
+.clearfix:after {
+    content: ".";            /* the period is placed on the page as the last thing before the div closes */
+	display: block;          /* inline elements don't respond to the clear property */ 
+    height: 0;               /* ensure the period is not visible */
+    clear: both;             /* make the container clear the period */
+    visibility: hidden;	     /* further ensures the period is not visible */
+}
+
+.clearfix {display: inline-block;}   /* a fix for IE Mac */
+
+/* next a fix for the dreaded Guillotine bug in IE6 */
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* end of "no-extra-markup" clearing method */

@@ -1,0 +1,25 @@
+.initBtn {
+	background-image:url('../images/icons/connect.png') !important;
+}
+
+.commitBtn {
+	background-image:url('../images/icons/database_go.png') !important;
+}
+
+.findBtn {
+	background-image:url('../images/icons/magnifier.png') !important;
+}
+
+.finBtn {
+	background-image:url('../images/icons/disconnect.png') !important;
+}
+
+.errorBtn {
+	background-image:url('../images/icons/error.png') !important;
+}
+
+
+.console-log-item {
+	margin-left:30px;
+	list-style-type:decimal;
+}

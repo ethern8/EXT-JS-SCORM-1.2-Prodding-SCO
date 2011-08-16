@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<manifest identifier="extjs_outstart_test_manifest" version="1.0"
+	xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+	xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd 
+ 		http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd 
+		http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+                              
+	<metadata/>
+
+	<organizations>
+		<organization identifier="extjs_outstart_test_manifest_org">
+			<title>EXT-JS SCORM 12 OutStart Tester - Updated</title>
+			<item identifier="item1" identifierref="extjs_outstart_test_resource">
+				<title>EXT-JS SCORM 12 OutStart Tester - Updated</title>
+			</item>
+		</organization>
+	</organizations>
+
+	<resources>
+		<resource identifier="extjs_outstart_test_resource" type="webcontent" adlcp:scormtype="sco" href="index.html">
+			<!-- SCORM stuff -->
+			<file href="imsmanifest.xml"/>
+			<file href="adlcp_rootv1p2.xsd"/>
+			<file href="imscp_rootv1p1p2.xsd"/>
+			<file href="imsmd_rootv1p2p1.xsd"/>
+			<file href="ims_xml.xsd"/>
+			<!-- SCO Communication stuff-->
+			<file href="scripts/sco_init.js"/>
+			<file href="scripts/lt/LMS.js"/>
+			<file href="scripts/lt/scormBehaviors/Scorm12.js"/>
+			<file href="scripts/lt/scormBehaviors/Scorm2004.js"/>
+			<!-- SCO Presentation stuff-->
+			<file href="scripts/extjs/ext-base-debug.js"/>
+			<file href="scripts/extjs/ext-all-debug.js"/>
+			<file href="scripts/lt/extjs/extjs-print.js"/>
+			<file href="scripts/lt/extjs/ConsolePanel.js"/>
+			<file href="scripts/ext-scorm-tester.js"/>
+			<file href="styles/ext-all.css"/>
+			<file href="styles/button-styles.css"/>
+			<!-- images -->
+			<file href="images/console-background.png"/>
+			<file href="images/icons/connect.png"/>
+			<file href="images/icons/database_add.png"/>
+			<file href="images/icons/database_connect.png"/>
+			<file href="images/icons/database_go.png"/>
+			<file href="images/icons/disconnect.png"/>
+			<file href="images/icons/error.png"/>
+			<file href="images/icons/lightning.png"/>
+			<file href="images/icons/magnifier.png"/>
+			<file href="images/default/gradient-bg.gif"/>
+			<file href="images/default/s.gif"/>
+			<file href="images/default/shadow.png"/>
+			<file href="images/default/shadow-c.png"/>
+			<file href="images/default/shadow-lr.png"/>
+			
+			<file href="images/default/box/corners.gif"/>
+			<file href="images/default/box/corners-blue.gif"/>
+			<file href="images/default/box/l.gif"/>
+			<file href="images/default/box/l-blue.gif"/>
+			<file href="images/default/box/r.gif"/>
+			<file href="images/default/box/r-blue.gif"/>
+			<file href="images/default/box/tb.gif"/>
+			<file href="images/default/box/tb-blue.gif"/>
+			
+			<file href="images/default/button/arrow.gif"/>
+			<file href="images/default/button/btn.gif"/>
+			<file href="images/default/button/group-cs.gif"/>
+			<file href="images/default/button/group-lr.gif"/>
+			<file href="images/default/button/group-tb.gif"/>
+			<file href="images/default/button/s-arrow.gif"/>
+			<file href="images/default/button/s-arrow-b.gif"/>
+			<file href="images/default/button/s-arrow-b-noline.gif"/>
+			<file href="images/default/button/s-arrow-bo.gif"/>
+			<file href="images/default/button/s-arrow-noline.gif"/>
+			<file href="images/default/button/s-arrow-o.gif"/>
+			<file href="images/default/dd/drop-add.gif"/>
+			<file href="images/default/dd/drop-no.gif"/>
+			<file href="images/default/dd/drop-yes.gif"/>
+			<file href="images/default/editor/tb-sprite.gif"/>
+			<file href="images/default/form/checkbox.gif"/>
+			<file href="images/default/form/clear-trigger.gif"/>
+			<file href="images/default/form/date-trigger.gif"/>
+			<file href="images/default/form/error-tip-corners.gif"/>
+			<file href="images/default/form/exclamation.gif"/>
+			<file href="images/default/form/radio.gif"/>
+			<file href="images/default/form/search-trigger.gif"/>
+			<file href="images/default/form/text-bg.gif"/>
+			<file href="images/default/form/trigger.gif"/>
+			<file href="images/default/form/trigger-tpl.gif"/>
+			<file href="images/default/grid/arrow-left-white.gif"/>
+			<file href="images/default/grid/arrow-right-white.gif"/>
+			<file href="images/default/grid/col-move-bottom.gif"/>
+			<file href="images/default/grid/col-move-top.gif"/>
+			<file href="images/default/grid/columns.gif"/>
+			<file href="images/default/grid/dirty.gif"/>
+			<file href="images/default/grid/done.gif"/>
+			<file href="images/default/grid/drop-no.gif"/>
+			<file href="images/default/grid/drop-yes.gif"/>
+			<file href="images/default/grid/footer-bg.gif"/>
+			<file href="images/default/grid/grid3-hd-btn.gif"/>
+			<file href="images/default/grid/grid3-hrow.gif"/>
+			<file href="images/default/grid/grid3-hrow-over.gif"/>
+			<file href="images/default/grid/grid3-special-col-bg.gif"/>
+			<file href="images/default/grid/grid3-special-col-sel-bg.gif"/>
+			<file href="images/default/grid/grid-blue-hd.gif"/>
+			<file href="images/default/grid/grid-blue-split.gif"/>
+			<file href="images/default/grid/grid-hrow.gif"/>
+			<file href="images/default/grid/grid-loading.gif"/>
+			<file href="images/default/grid/grid-split.gif"/>
+			<file href="images/default/grid/grid-vista-hd.gif"/>
+			<file href="images/default/grid/group-by.gif"/>
+			<file href="images/default/grid/group-collapse.gif"/>
+			<file href="images/default/grid/group-expand.gif"/>
+			<file href="images/default/grid/group-expand-sprite.gif"/>
+			<file href="images/default/grid/hd-pop.gif"/>
+			<file href="images/default/grid/hmenu-asc.gif"/>
+			<file href="images/default/grid/hmenu-desc.gif"/>
+			<file href="images/default/grid/hmenu-lock.gif"/>
+			<file href="images/default/grid/hmenu-lock.png"/>
+			<file href="images/default/grid/hmenu-unlock.gif"/>
+			<file href="images/default/grid/hmenu-unlock.png"/>
+			<file href="images/default/grid/invalid_line.gif"/>
+			<file href="images/default/grid/loading.gif"/>
+			<file href="images/default/grid/mso-hd.gif"/>
+			<file href="images/default/grid/nowait.gif"/>
+			<file href="images/default/grid/page-first.gif"/>
+			<file href="images/default/grid/page-first-disabled.gif"/>
+			<file href="images/default/grid/page-last.gif"/>
+			<file href="images/default/grid/page-last-disabled.gif"/>
+			<file href="images/default/grid/page-next.gif"/>
+			<file href="images/default/grid/page-next-disabled.gif"/>
+			<file href="images/default/grid/page-prev.gif"/>
+			<file href="images/default/grid/page-prev-disabled.gif"/>
+			<file href="images/default/grid/pick-button.gif"/>
+			<file href="images/default/grid/refresh.gif"/>
+			<file href="images/default/grid/row-check-sprite.gif"/>
+			<file href="images/default/grid/row-expand-sprite.gif"/>
+			<file href="images/default/grid/row-over.gif"/>
+			<file href="images/default/grid/row-sel.gif"/>
+			<file href="images/default/grid/sort_asc.gif"/>
+			<file href="images/default/grid/sort_desc.gif"/>
+			<file href="images/default/grid/sort-hd.gif"/>
+			<file href="images/default/grid/wait.gif"/>
+			<file href="images/default/layout/collapse.gif"/>
+			<file href="images/default/layout/expand.gif"/>
+			<file href="images/default/layout/gradient-bg.gif"/>
+			<file href="images/default/layout/mini-bottom.gif"/>
+			<file href="images/default/layout/mini-left.gif"/>
+			<file href="images/default/layout/mini-right.gif"/>
+			<file href="images/default/layout/mini-top.gif"/>
+			<file href="images/default/layout/ns-collapse.gif"/>
+			<file href="images/default/layout/ns-expand.gif"/>
+			<file href="images/default/layout/panel-close.gif"/>
+			<file href="images/default/layout/panel-title-bg.gif"/>
+			<file href="images/default/layout/panel-title-light-bg.gif"/>
+			<file href="images/default/layout/stick.gif"/>
+			<file href="images/default/layout/stuck.gif"/>
+			<file href="images/default/layout/tab-close.gif"/>
+			<file href="images/default/layout/tab-close-on.gif"/>
+			<file href="images/default/menu/checked.gif"/>
+			<file href="images/default/menu/group-checked.gif"/>
+			<file href="images/default/menu/item-over.gif"/>
+			<file href="images/default/menu/menu.gif"/>
+			<file href="images/default/menu/menu-parent.gif"/>
+			<file href="images/default/menu/unchecked.gif"/>
+			<file href="images/default/panel/corners-sprite.gif"/>
+			<file href="images/default/panel/left-right.gif"/>
+			<file href="images/default/panel/light-hd.gif"/>
+			<file href="images/default/panel/tool-sprites.gif"/>
+			<file href="images/default/panel/tool-sprite-tpl.gif"/>
+			<file href="images/default/panel/tools-sprites-trans.gif"/>
+			<file href="images/default/panel/top-bottom.gif"/>
+			<file href="images/default/panel/top-bottom.png"/>
+			<file href="images/default/panel/white-corners-sprite.gif"/>
+			<file href="images/default/panel/white-left-right.gif"/>
+			<file href="images/default/panel/white-top-bottom.gif"/>
+			<file href="images/default/progress/progress-bg.gif"/>
+			<file href="images/default/qtip/bg.gif"/>
+			<file href="images/default/qtip/close.gif"/>
+			<file href="images/default/qtip/tip-anchor-sprite.gif"/>
+			<file href="images/default/qtip/tip-sprite.gif"/>
+			<file href="images/default/shared/blue-loading.gif"/>
+			<file href="images/default/shared/calendar.gif"/>
+			<file href="images/default/shared/glass-bg.gif"/>
+			<file href="images/default/shared/hd-sprite.gif"/>
+			<file href="images/default/shared/large-loading.gif"/>
+			<file href="images/default/shared/left-btn.gif"/>
+			<file href="images/default/shared/loading-balls.gif"/>
+			<file href="images/default/shared/right-btn.gif"/>
+			<file href="images/default/shared/warning.gif"/>
+			<file href="images/default/sizer/e-handle.gif"/>
+			<file href="images/default/sizer/e-handle-dark.gif"/>
+			<file href="images/default/sizer/ne-handle.gif"/>
+			<file href="images/default/sizer/ne-handle-dark.gif"/>
+			<file href="images/default/sizer/nw-handle.gif"/>
+			<file href="images/default/sizer/nw-handle-dark.gif"/>
+			<file href="images/default/sizer/se-handle.gif"/>
+			<file href="images/default/sizer/se-handle-dark.gif"/>
+			<file href="images/default/sizer/s-handle.gif"/>
+			<file href="images/default/sizer/s-handle-dark.gif"/>
+			<file href="images/default/sizer/square.gif"/>
+			<file href="images/default/sizer/sw-handle.gif"/>
+			<file href="images/default/sizer/sw-handle-dark.gif"/>
+			<file href="images/default/slider/slider-bg.png"/>
+			<file href="images/default/slider/slider-thumb.png"/>
+			<file href="images/default/slider/slider-v-bg.png"/>
+			<file href="images/default/slider/slider-v-thumb.png"/>
+			<file href="images/default/tabs/scroller-bg.gif"/>
+			<file href="images/default/tabs/scroll-left.gif"/>
+			<file href="images/default/tabs/scroll-right.gif"/>
+			<file href="images/default/tabs/tab-btm-inactive-left-bg.gif"/>
+			<file href="images/default/tabs/tab-btm-inactive-right-bg.gif"/>
+			<file href="images/default/tabs/tab-btm-left-bg.gif"/>
+			<file href="images/default/tabs/tab-btm-right-bg.gif"/>
+			<file href="images/default/tabs/tab-close.gif"/>
+			<file href="images/default/tabs/tabs-sprite.gif"/>
+			<file href="images/default/tabs/tab-strip-bg.gif"/>
+			<file href="images/default/tabs/tab-strip-bg.png"/>
+			<file href="images/default/tabs/tab-strip-btm-bg.gif"/>
+			<file href="images/default/toolbar/bg.gif"/>
+			<file href="images/default/toolbar/btn-arrow.gif"/>
+			<file href="images/default/toolbar/btn-arrow-light.gif"/>
+			<file href="images/default/toolbar/btn-over-bg.gif"/>
+			<file href="images/default/toolbar/gray-bg.gif"/>
+			<file href="images/default/toolbar/more.gif"/>
+			<file href="images/default/toolbar/tb-bg.gif"/>
+			<file href="images/default/toolbar/tb-btn-sprite.gif"/>
+			<file href="images/default/toolbar/tb-xl-btn-sprite.gif"/>
+			<file href="images/default/toolbar/tb-xl-sep.gif"/>
+			<file href="images/default/tree/arrows.gif"/>
+			<file href="images/default/tree/drop-add.gif"/>
+			<file href="images/default/tree/drop-between.gif"/>
+			<file href="images/default/tree/drop-no.gif"/>
+			<file href="images/default/tree/drop-over.gif"/>
+			<file href="images/default/tree/drop-under.gif"/>
+			<file href="images/default/tree/drop-yes.gif"/>
+			<file href="images/default/tree/elbow.gif"/>
+			<file href="images/default/tree/elbow-end.gif"/>
+			<file href="images/default/tree/elbow-end-minus.gif"/>
+			<file href="images/default/tree/elbow-end-minus-nl.gif"/>
+			<file href="images/default/tree/elbow-end-plus.gif"/>
+			<file href="images/default/tree/elbow-end-plus-nl.gif"/>
+			<file href="images/default/tree/elbow-line.gif"/>
+			<file href="images/default/tree/elbow-minus.gif"/>
+			<file href="images/default/tree/elbow-minus-nl.gif"/>
+			<file href="images/default/tree/elbow-plus.gif"/>
+			<file href="images/default/tree/elbow-plus-nl.gif"/>
+			<file href="images/default/tree/folder.gif"/>
+			<file href="images/default/tree/folder-open.gif"/>
+			<file href="images/default/tree/leaf.gif"/>
+			<file href="images/default/tree/loading.gif"/>
+			<file href="images/default/tree/s.gif"/>
+			<file href="images/default/window/icon-error.gif"/>
+			<file href="images/default/window/icon-info.gif"/>
+			<file href="images/default/window/icon-question.gif"/>
+			<file href="images/default/window/icon-warning.gif"/>
+			<file href="images/default/window/left-corners.png"/>
+			<file href="images/default/window/left-right.png"/>
+			<file href="images/default/window/right-corners.png"/>
+			<file href="images/default/window/top-bottom.png"/>
+			
+			
+		</resource>
+	</resources>
+</manifest>
